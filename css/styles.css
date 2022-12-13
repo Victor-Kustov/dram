@@ -1,0 +1,61 @@
+
+:root {
+    --primary-text-color: #000000;
+    --title-text-color: #000000;
+    --header-text-color: #ffffff;
+    --accent-color: #0000ff;
+
+    --date-color: #737373;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    
+}
+
+.section .title {
+    color: var(--title-text-color);
+    font-size: 18pt;
+}
+
+.section time {
+    color: var(--date-color);
+    font-size: 14pt;
+}
+
+.section .text {
+    color: var(--primary-text-color);
+    font-size: 16pt;
+}
+
+
+.logo {
+    color: var(--header-text-color);
+}
+
+.page-header {
+    
+}
+
+.nav {
+    color: var(--header-text-color);
+    font-size: 16pt;
+}
+
+.nav .link:hover, .nav .link:focus {
+    color: var(--accent-color);
+}
+
+.nav .link.current {
+    color: var(--accent-color)
+}
