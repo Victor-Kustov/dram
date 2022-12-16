@@ -3,6 +3,7 @@
     --primary-text-color: #000000;
     --title-text-color: #000000;
     --header-text-color: #ffffff;
+    --footer-text-color: #ffffff;
     --accent-color: #0000ff;
 
     --date-color: #737373;
@@ -10,9 +11,10 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: tomato;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+    font-weight: 400;
+    font-size: 16pt;
 }
 
 ul {
@@ -20,11 +22,12 @@ ul {
 }
 
 a {
-    
+    text-decoration: none;
 }
 
 .section .title {
     color: var(--title-text-color);
+    font-weight: 700;
     font-size: 18pt;
 }
 
@@ -35,27 +38,66 @@ a {
 
 .section .text {
     color: var(--primary-text-color);
+    font-weight: 700;
     font-size: 16pt;
 }
 
+/* header */
 
 .logo {
     color: var(--header-text-color);
+    font-size: 18pt;
 }
 
 .page-header {
-    
+    background-color: #F76045;
 }
 
 .nav {
     color: var(--header-text-color);
-    font-size: 16pt;
+
+    font-weight: 700;
 }
 
 .nav .link:hover, .nav .link:focus {
     color: var(--accent-color);
 }
 
+.nav .link {
+    color: #ffffff;
+}
+
 .nav .link.current {
-    color: var(--accent-color)
+    color: var(--accent-color);
+}
+
+
+/* афиша */
+
+.section .datw {
+    color: var(--accent-color);
+    font-size: 14pt;
+}
+
+.section .name {
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+
+
+/* footer */
+
+.page-footer {
+    background-color: #000000;
+    color: var(--footer-text-color);
+    font-size: 14pt;
+}
+
+.page-footer .address {
+    font-style: normal;
+}
+
+.page-footer .mail {
+    color: #737373;
 }
