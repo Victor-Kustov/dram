@@ -10,8 +10,7 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
-            <nav>
+            <nav class="container container-header">
                 <a href="./index.html" class="logo">
                     <img src="./img/logo.png" alt="логотип">
                     Мариупольский Республиканский<br>
@@ -23,10 +22,10 @@
                         <a href="./index.html" class="link current">Главная</a>
                     </li>
                     <li>
-                        <a href="./history.html" class="link">История</a>
+                        <a href="./repertoire.html" class="link">Репертуар</a>
                     </li>
                     <li>
-                        <a href="./repertoire.html" class="link">Афиша</a>
+                        <a href="./history.html" class="link">История</a>
                     </li>
                     <li>
                         <a href="./troupe.html" class="link">Состав</a>
@@ -36,20 +35,19 @@
                     </li>
                 </ul>
             </nav>
-        </div>
     </header>
     <main>
         <section class="hero">
             <div class="container">
-                <img src="./img/hero_img.jpg" alt="Изображение героя">
-                <h1>HERO</h1>
+                <img src="./img/hero_img.jpg" alt="Фотография драмтеатра">
+                <!-- <h1>HERO</h1> -->
             </div>
         </section>
         <section class="section">
             <div class="container">
                 <h2 class="title">НОВОСТИ</h2>
-                <ul>
-                    <li>
+                <ul class="news-list">
+                    <li class="item">
                         <time datetime="2022-06-01">1.06.2022</time>
                         <p class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
@@ -60,7 +58,7 @@
                             reiciendis et.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <time datetime="2022-06-01">1.06.2022</time>
                         <p class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
@@ -73,7 +71,7 @@
                             reiciendis et.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <time datetime="2022-06-01">1.06.2022</time>
                         <p class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
@@ -86,68 +84,44 @@
                             reiciendis et.
                         </p>
                     </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <h2 class="title">ПРЕМЬЕРЫ</h2>
-                <ul>
-                    <li>
-                        <time datetime="2022-10-02 15:00" class="date">2 октября 15:00</time>
-                        <a href="#">
-                            <img src="./img/premiere_img.jpg" alt="Изображение спектакля">
-                        </a>
-                        <h3 class="name">СТАРШИЙ СЫН</h3>
-                        <p>А. Вампилов. Премьера</p>
+                    <li class="item">
+                        <time datetime="2022-06-01">1.06.2022</time>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
+                            consectetur
+                            aliquam error exercitationem officia id illum maxime inventore corrupti praesentium laboriosam similique
+                            excepturi
+                            totam
+                            cum voluptate et! Commodi quod facilis, ratione ea asperiores officia vitae hic id animi? Laborum vitae
+                            recusandae a
+                            reiciendis et.
+                        </p>
                     </li>
-                    <li>
-                        <time datetime="2022-10-02 15:00">2 октября 15:00</time>
-                        <a href="#">
-                            <img src="./img/premiere_img.jpg" alt="Изображение спектакля">
-                        </a>
-                        <h3 class="name">СТАРШИЙ СЫН</h3>
-                        <p>А. Вампилов. Премьера</p>
+                    <li class="item">
+                        <time datetime="2022-06-01">1.06.2022</time>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
+                            consectetur
+                            aliquam error exercitationem officia id illum maxime inventore corrupti praesentium laboriosam similique
+                            excepturi
+                            totam
+                            cum voluptate et! Commodi quod facilis, ratione ea asperiores officia vitae hic id animi? Laborum vitae
+                            recusandae a
+                            reiciendis et.
+                        </p>
                     </li>
-                    <li>
-                        <time datetime="2022-10-02 15:00">2 октября 15:00</time>
-                        <a href="#">
-                            <img src="./img/premiere_img.jpg" alt="Изображение спектакля">
-                        </a>
-                        <h3 class="name">СТАРШИЙ СЫН</h3>
-                        <p>А. Вампилов. Премьера</p>
-                    </li>
-                    <li>
-                        <time datetime="2022-10-02 15:00">2 октября 15:00</time>
-                        <a href="#">
-                            <img src="./img/premiere_img.jpg" alt="Изображение спектакля">
-                        </a>
-                        <h3 class="name">СТАРШИЙ СЫН</h3>
-                        <p>А. Вампилов. Премьера</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <h2 class="title">АРТИСТЫ</h2>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="./img/artist_img1.jpg" alt="Фотография артиста">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./img/artist_img2.jpg" alt="Фотография артиста">
-                        </a>
-                        <p>Иванов Иван Иванович</p>
-                        <p>Артист драмы</p>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./img/artist_img1.jpg" alt="Фотография артиста">
-                        </a>
+                    <li class="item">
+                        <time datetime="2022-06-01">1.06.2022</time>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia iste, a laborum veritatis eveniet
+                            consectetur
+                            aliquam error exercitationem officia id illum maxime inventore corrupti praesentium laboriosam similique
+                            excepturi
+                            totam
+                            cum voluptate et! Commodi quod facilis, ratione ea asperiores officia vitae hic id animi? Laborum vitae
+                            recusandae a
+                            reiciendis et.
+                        </p>
                     </li>
                 </ul>
             </div>
