@@ -9,6 +9,14 @@
     --date-color: #737373;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     color: var(--primary-text-color);
     background-color: #ffffff;
@@ -19,10 +27,18 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+/* container */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .section .title {
@@ -69,6 +85,12 @@ a {
 
 .nav .link.current {
     color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero img {
+    width: 100%;
 }
 
 
