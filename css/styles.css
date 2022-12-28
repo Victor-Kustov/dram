@@ -155,11 +155,6 @@ p {
 
 /* афиша */
 
-.section .datw {
-    color: var(--accent-color);
-    font-size: 14pt;
-}
-
 .section .name {
     font-weight: 700;
     font-size: 16pt;
@@ -180,22 +175,46 @@ p {
     flex-wrap: wrap;
 }
 
-.truppa .item {
-    width: 200px;
+.truppa-title {
+    margin-bottom: 20px;
 }
 
-.truppa .item:not(:last-child) {
-    margin-right: 82px;
+.truppa .item {
+    width: 200px;
+    margin-right: 102px;
+    margin-bottom: 50px;
+}
+
+.truppa .item:nth-child(5n) {
+    margin-right: 0;
+}
+
+.truppa .item:nth-last-child(-n + 5) {
+    margin-bottom: 0;
+}
+
+.truppa h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.truppa p {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
 }
 
 /* footer */
+
+.page-footer {
+    background-color: #000000;
+}
 
 .container-footer {
     display: flex;
     padding-top: 70px;
     padding-bottom: 70px;
 
-    background-color: #000000;
     color: var(--footer-text-color);
     font-size: 14pt;
 }
