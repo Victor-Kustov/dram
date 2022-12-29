@@ -142,14 +142,37 @@ p {
     width: 100%;
 }
 
+/* repertoir */
+
+.repertoir {
+    display: flex;
+}
+
+.repertoir .item {
+    /* display: flex */
+}
+
 /* news */
 
+.news-list time {
+    margin-bottom: 20px;
+}
+
 .news-list > .item {
+    display: flex;
     padding: 15px;
 }
 
 .news-list > .item:nth-child(2n) {
     background-color: #f5f5f5;
+}
+
+.news-list .description {
+    margin-left: 50px;
+}
+
+.news-list .text {
+    font-weight: 400;
 }
 
 
