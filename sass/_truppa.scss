@@ -1,0 +1,35 @@
+/* truppa */
+
+.truppa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .truppa-title {
+    margin-bottom: 20px;
+  }
+  
+  .truppa .item {
+    width: 200px;
+    margin-right: 102px;
+    margin-bottom: 50px;
+  }
+  
+  .truppa .item:nth-child(5n) {
+    margin-right: 0;
+  }
+  
+  .truppa .item:nth-last-child(-n + 5) {
+    margin-bottom: 0;
+  }
+  
+  .truppa h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .truppa p {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+  }
