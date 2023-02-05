@@ -16,7 +16,7 @@
   margin-bottom: 100px;
 }
 
-.repertoir-title  {
+.repertoir-title {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -24,17 +24,31 @@
 }
 
 .repertoir .item {
-  width: 200px;
-  margin-right: 102px;
-  margin-bottom: 50px;
-}
+  width: 220px;
+  // background-color: $accent-color;
+  // border: 1px solid $accent-color;
 
-.repertoir .item:nth-child(5n) {
-  margin-right: 0;
-}
+  padding: 10px;
 
-.repertoir .item:nth-last-child(-n + 5) {
-  margin-bottom: 0;
+  // height: 100%;
+  margin-right: 77px;
+  margin-bottom: 20px;
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+
+  &:hover, &:focus {
+    // border: 1px double $accent-color;
+    background-color: $accent-color;
+  }
+
+  &:hover time {
+    color: #000000;
+    font-weight: bold;
+  }
+
+
 }
 
 .repertoir h3 {
@@ -48,4 +62,3 @@
   font-size: 16px;
   font-style: italic;
 }
-

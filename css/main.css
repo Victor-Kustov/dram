@@ -164,17 +164,20 @@ p {
 }
 
 .repertoir .item {
-  width: 200px;
-  margin-right: 102px;
-  margin-bottom: 50px;
+  width: 220px;
+  padding: 10px;
+  margin-right: 77px;
+  margin-bottom: 20px;
 }
-
 .repertoir .item:nth-child(5n) {
   margin-right: 0;
 }
-
-.repertoir .item:nth-last-child(-n+5) {
-  margin-bottom: 0;
+.repertoir .item:hover, .repertoir .item:focus {
+  background-color: yellow;
+}
+.repertoir .item:hover time {
+  color: #000000;
+  font-weight: bold;
 }
 
 .repertoir h3 {
@@ -199,6 +202,7 @@ p {
 .news-list > .item {
   display: flex;
   padding: 15px;
+  margin-bottom: 20px;
 }
 
 .news-list > .item:nth-child(2n) {
